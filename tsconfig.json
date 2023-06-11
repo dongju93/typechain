@@ -1,0 +1,11 @@
+{
+    "include": ["src", "myPackage.js", "cusModu/myPackage.js", "myPackage.d.ts"],
+    "compilerOptions": {
+        "outDir": "build",
+        "target": "ESNext",
+        "lib": ["ESNext"],
+        "strict": true,
+        "esModuleInterop": true,
+        "module": "CommonJS"
+    }
+}
